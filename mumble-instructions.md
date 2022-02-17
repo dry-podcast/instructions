@@ -69,8 +69,21 @@
 
 ![image][podcast-room]
 
-### На этом все.
+## Настройка PTT
 
+В Mumble есть возможность настроить "разговор по кнопке". Чтобы не нажимать постоянно mute/unmute. Для этого нужно зайти в настройки программы и выбрать меню `Shortcuts`
+![image][open-shortcuts]
+
+В открывшемся окне нажать кнопку `Add`, в поле `Function` выбрать `Push-to-Talk`, а потом нажать на поле `Shortcut` и нажать любимую комбинацию клавиш
+![image][set-shortcut]
+
+> **Внимание!** На macOS можно столкнуться с проблемой, когда при нажатии комбинации клавиш ничего не происходит. Это означает, что при первом запуске программы вы запретили ей доступ к клавиатуре. Теперь придется вручную сходить в настройки безопасности системы и разрешить доступ. Это потребует перезапуска Mumble. Если все сделано правильно, то комбинации клавиш должны начать появляться в поле `Shortcut`
+
+Теперь нужно открыть меню `Audio Input` и в блоке `Transmission` выбрать опцию `Push To Talk` в выпадающем списке `Transmit`
+![image][set-shortcut-audio]
+
+
+## Have a nice podcast ;)
 
 [mumble-link]:https://www.mumble.info/
 [mumble-download-screen]:asssets/mumble/mumble_download.png
@@ -84,3 +97,6 @@
 [podcast-room]:asssets/mumble/podcast_room.png
 [settings]:asssets/mumble/settings.png
 [audio-input]:asssets/mumble/audio_input.png
+[open-shortcuts]:asssets/mumble/open_shortcuts.png
+[set-shortcut]:asssets/mumble/set_shortcut.png
+[set-shortcut-audio]:asssets/mumble/set_shortcut_audio.png
